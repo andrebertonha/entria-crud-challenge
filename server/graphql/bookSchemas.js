@@ -83,7 +83,7 @@ var mutation = new GraphQLObjectType({
                 type: bookType,
                 args: {
                     isbn: {
-                        type new GraphQLNonNull(GraphQLString)
+                        type: new GraphQLNonNull(GraphQLString)
                     },
                     title: {
                         type: new GraphQLNonNull(GraphQLString)

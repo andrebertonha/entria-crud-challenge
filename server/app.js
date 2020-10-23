@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var graphqlHTTP = require('express-graphql');
+var graphqlHTTP = require('express-graphql').graphqlHTTP;
 var schema = require('./graphql/bookSchemas');
 var cors = require('cors');
 
