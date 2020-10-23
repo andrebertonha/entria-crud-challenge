@@ -24,7 +24,7 @@ function App() {
           if (error) return `Error! ${error.message}`;
 
           return (
-            <div className="container">
+            <div className="App">
               <div className="panel panel-default">
                 <div className="panel-heading">
                   <h3 className="panel-title">
