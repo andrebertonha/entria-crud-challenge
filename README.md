@@ -10,6 +10,7 @@
 
 + In The project root folder run:
     - npm install to install the dependencies for the backend
+    - cd server
     - npm start to run backend
 
     - the project must be running in the localhost:3000
