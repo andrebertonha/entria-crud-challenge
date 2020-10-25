@@ -20,11 +20,46 @@
         ```
             {
                 books {
+                    _id,
                     isbn,
                     author,
                     title
                 }
             }
+        ```
+
+        - to get all single book from id
+        ```
+           {
+                book(id:"5f92edcbc4a4cf0d74ef869b") {
+                    _id,
+                    isbn,
+                    title,
+                    author,
+                    description,
+                    published_year,
+                    publisher,
+                    updated_date
+                }
+            }
+        ```
+
+        - to add a book use this mutation
+        ```
+           mutation {
+            addBook(
+                isbn: "123475678",
+                title: "Whatever this book title",
+                author: "Mr. Bean 450",
+                description: "shor explanation",
+                publisher: "Djamware Press",
+                published_year: 2019,
+                
+            ) {
+                updated_date
+            }
+          }
+
         ```
 
 #### Frontend
