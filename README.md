@@ -62,6 +62,35 @@
 
         ```
 
+        - update a book
+
+        ```
+            mutation {
+                updateBook(
+                    id: "5f92edcbc4a4cf0d74ef869b",
+                    isbn: "12345678221",
+                    title: "The Learning Curve of GraphQL",
+                    author: "Didin J.",
+                    description: "The short explanation of this Book",
+                    publisher: "Djamware Press",
+                    published_year: 2019
+                ) {
+                    _id,
+                    updated_date
+                }
+            }
+        ```
+
+        - delete by id
+        ```
+        mutation {
+            removeBook(id: "5f92edcbc4a4cf0d74ef869b") {
+                _id
+            }
+        }
+
+        ```
+
 #### Frontend
     + Go to the project folder and access client folder by:
     - cd client
