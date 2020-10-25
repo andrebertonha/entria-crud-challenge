@@ -15,6 +15,18 @@
     - the project must be running in the localhost:3000
     - type localhost:3000/graphql to run graphql queries
 
+    + examples: 
+        - to get all books from the database ( after create ones for sure )
+        ```
+            {
+                books {
+                    isbn,
+                    author,
+                    title
+                }
+            }
+        ```
+
 #### Frontend
     + Go to the project folder and access client folder by:
     - cd client
