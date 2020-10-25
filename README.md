@@ -12,6 +12,8 @@
     - npm install to install the dependencies for the backend
     - npm start to run backend
 
+    - the project must be running in the localhost:3000
+
 #### Frontend
     + Go to the project folder and access client folder by:
     - cd client
@@ -20,4 +22,4 @@
         - if asks to run in another port than localhost:3000 say 'y' yes to run in localhost:3001
         - access localhost:3001 from the browser and see the project running
         
-
+- note: The books is only can be added until 2019 year, if you put 2020 or any another year over 2019 the error must be shown
